@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 72px;
+  font-family: Arial, sans-serif;
+  font-weight: 20;
+  }
+
+p {
+  color: white;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  font-weight: 20;
+}
+
+p .ievads{
+	font-size: 32px;
+}
+
+.logoHeader{
+	margin: 20px;
+}
+
+.fonaOverlay{
+	background-image: linear-gradient(blue, black);
+}
+
+#triangleDown {
+  	width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 300px solid red;
+    position: fixed;
+    top: 28%;
+    right: 5%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.Column{
+	text-align: center;
+	padding: 3%;
+	float: left;
+	height: 150px;
+  	width: 24.9%;
+}
+
+.Column:hover{
+	background-color: red;
+}
+
+.saturs{
+	width: 90%;
+}
+
+.teksti{
+  min-width: 100%;
+	float: left;
+	height: 50%;
+}
+
+.ievads{
+	margin: 40px;
+	float: left;
+	width: 45%;
+}
+
+.ievadaPic{
+  margin: 40px 0px 40px 40px;
+  float: left;
+  width: 43%;
+}
+
+.Profile{
+  width: 500px;
+  height: 248px;
+  border: solid;
+  border-color: red;
+}
+
+#ievads{
+	font-size: 28px;
+}
+
+.izvelne{
+  min-width: 98%;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+.paraksts{
+  max-width: 50%;
+	padding-bottom: 5px;
+	margin: 20px;
+}
+
+#FirstRow #FirstC{
+	  	border: solid;
+  	border-color: rgb(255, 29, 196);
+  	border-width: 1px;
+}
+#SecondRow #FirstC{
+	  	border: solid;
+  	border-color: rgb(255, 29, 196);
+  	border-width: 1px;
+}
+#SecondRow #SecondC{
+	  	border: solid;
+  	border-color: rgb(255, 29, 196);
+  	border-width: 1px;
+}
+#ThirdRow #FirstC{
+	  	border: solid;
+  	border-color: rgb(255, 29, 196);
+  	border-width: 1px;
+}
+#ThirdRow #SecondC{
+	  	border: solid;
+  	border-color: rgb(255, 29, 196);
+  	border-width: 1px;
+}
+#ThirdRow #ThirdC{
+	  	border: solid;
+  	border-color: rgb(255, 29, 196);
+  	border-width: 1px;
+}
+#ThirdRow #FourthC{
+	  	border: solid;
+  	border-color: rgb(255, 29, 196);
+  	border-width: 1px;
+}
+
+.Language{
+    margin: 40px;
+}

@@ -1,0 +1,97 @@
+
+body {
+  background-image: url("../images/Dark_fons.svg");
+  margin: auto;
+}
+
+h1 {
+  color: #ff5050;
+  text-align: center;
+  font-size: 72px;
+  font-family: Arial, sans-serif;
+  font-weight: 20;
+  }
+
+p {
+  color: #ffff1a;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  font-weight: 20;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: 20;
+  border: solid;
+  border-width: 0.5px;
+  border-color: black;
+}
+
+li a:hover:not(.active) {
+  border: solid;
+  border-width: 0.5px;
+  border-color: rgb(255, 29, 196);
+  color: #ff5050;
+}
+
+.active {
+  border: solid;
+  border-width: 0.5px;
+  border-color: rgb(255, 29, 196);
+  background-color: blue;
+  color: white;
+}
+
+.border{
+  height: 40px;
+  background-image: linear-gradient(to right, black 25%,#6600ff 75%, #ff5050 90%, #ffcc00);
+}
+
+p .ievads{
+  font-size: 32px;
+}
+
+.ievads{
+  margin: 20px;
+}
+
+#ievads{
+  font-size: 28px;
+}
+
+.paraksts{
+  margin: 20px;
+}
+
+.logo_image{
+    height: 30px;
+    
+}
+
+.img-fluid{
+    margin: -11px 0px -15px 0px;
+    overflow: hidden;
+    width: 45px;
+    height: 45px;
+}
+
+.Hero{
+  width: 100%;
+}

@@ -1,0 +1,84 @@
+
+body {
+  background-image: url("../images/Light_fons.svg");
+  margin: auto;
+}
+
+h1 {
+  color: #0033cc;
+  text-align: center;
+  font-size: 72px;
+  font-family: Arial, sans-serif;
+  font-weight: 20;
+  }
+
+p {
+  color: #6600ff;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  font-weight: 20;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0033cc;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: 20;
+}
+
+li a:hover:not(.active) {
+  background-color: #ff5050;
+}
+
+.active {
+  background-color: #6600ff;
+}
+
+.border{
+  height: 40px;
+  margin-top: -5px;
+  background-image: linear-gradient(to right, #0033cc 25%,#6600ff 75%, #ff5050 90%, #ffcc00);
+}
+
+p .ievads{
+	font-size: 32px;
+}
+
+.ievads{
+	margin: 20px;
+}
+
+#ievads{
+	font-size: 28px;
+}
+
+.paraksts{
+	margin: 20px;
+}
+
+.img-fluid{
+    margin: -11px 0px -15px 0px;
+    overflow: hidden;
+    width: 45px;
+    height: 45px;
+}
+
+.Hero{
+  width: 100%;
+
+}
