@@ -22,9 +22,9 @@ p {
   font-weight: 20;
 }
 
-p .ievads{
+/*p #ievads{
 	font-size: 32px;
-}
+}*/
 
 .logoHeader{
 	margin: 20px;
@@ -147,17 +147,19 @@ a{
     margin: 40px;
 }
 
-@media only screen and (max-width: 1720px) {
+@media only screen and (max-width: 14cm) {
 
-    h1{font-size: 72px;}
+    h1{font-size: 9vw;}
 
-    p .ievads{ font-size: 48px;}
+    p{font-size: 2vw;}
+
+    #Ievads{font-size: 4vw;}
 
     .logoHeader{margin: 2px; width: 100%;}
 
-    #triangleDown { border-left: 35px solid transparent;
-    border-right: 35px solid transparent;
-    border-top: 70px solid red;
+    #triangleDown { border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
     right: 5%;}
 
     .saturs{ width: 95%;}
