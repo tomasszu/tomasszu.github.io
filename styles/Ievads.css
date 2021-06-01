@@ -218,13 +218,13 @@ a{
 
   }
 
-    @media only screen and (max-device-width: 580px){
+    @media only handheld and (max-device-width: 580px){
 
     #triangleDown { display: none;}
 
     #logo{width: 100vw;}
 
-    .saturs{ width: 100%;}
+    .saturs{ width: 98%;}
 
     .teksti{height: 100%;}
 
