@@ -4,8 +4,8 @@ body {
   margin: auto;
 }
 
-.selector:not(*:root) body {
-  background-image: url("../images/Dark_fons.png");
+.selector:not(*:root), body {
+    background-image: url("../images/Dark_fons.png");
 }
 
 h1 {
