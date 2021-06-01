@@ -218,7 +218,7 @@ a{
 
   }
 
-    @media only handheld and (max-device-width: 580px){
+    @media only screen and (max-device-width: 480px){
 
     #triangleDown { display: none;}
 
