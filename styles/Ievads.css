@@ -157,9 +157,9 @@ a{
 
     .logoHeader{margin: 2px; width: 100%;}
 
-    #triangleDown { border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid red;
+    #triangleDown { border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-top: 20vw solid red;
     right: 5%;}
 
     .saturs{ width: 95%;}
@@ -175,21 +175,21 @@ a{
   }
 
 
-@media only screen and (max-device-width: 1200px) and (orientation: portrait){
+@media only screen and (max-device-width: 1080px) and (orientation: portrait){
 
     #logo{width: 100vw;}
 
-    h1{font-size: 9vw;}
+    h1{font-size: 12vw;}
 
     p{font-size: 2vw;}
 
-    #Ievads{font-size: 4vw;}
+    #Ievads{font-size: 6vw;}
 
     .logoHeader{margin: 2px; width: 100%;}
 
-    #triangleDown { border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid red;
+    #triangleDown { border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-top: 20vw solid red;
     right: 5%;}
 
     .saturs{ width: 95%;}
@@ -218,21 +218,21 @@ a{
 
   }
 
-    @media only screen and (max-device-width: 480px){
+    @media only screen and (max-device-width: 620px){
 
     #triangleDown { display: none;}
 
-    #logo{width: 100vw;}
+    #logo{width: 98vw;}
 
-    .saturs{ width: 98%;}
+    .saturs{ width: 99%;}
 
     .teksti{height: 100%;}
 
-    .ievads{margin: 20px; width: 100%;}
+    .ievads{margin: 1%; width: 98%;}
 
-    .ievadaPic{margin: 20px; width: 100%;}
+    .ievadaPic{margin: 1%; width: 98%;}
 
-    .Column{padding: 2%; width: 100%;}
+    .Column{padding: 2%; width: 99%;}
 
     #FirstRow #SecondC{display: none;}
 
@@ -244,6 +244,6 @@ a{
 
     #SecondRow #FourthC{display: none;}
 
-    .Profile{ width: 100%; height: auto;}
+    .izvelne{ margin: 1%;}
 
   }
