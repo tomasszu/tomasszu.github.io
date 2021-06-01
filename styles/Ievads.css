@@ -220,6 +220,8 @@ a{
 
     @media only screen and (max-device-width: 620px){
 
+    p {font-size: 6vw;}
+
     #triangleDown { display: none;}
 
     #logo{width: 98vw;}
