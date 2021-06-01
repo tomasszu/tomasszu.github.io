@@ -147,7 +147,7 @@ a{
     margin: 40px;
 }
 
-  @media only screen and (max-device-width: 1440px) and (orientation: portrait){
+  @media only screen and (max-width: 1440px) and (orientation: portrait){
 
     h1{font-size: 9vw;}
 
@@ -175,7 +175,7 @@ a{
   }
 
 
-@media only screen and (max-device-width: 1080px) and (orientation: portrait){
+@media only screen and (max-width: 1080px) and (orientation: portrait){
 
     #logo{width: 100vw;}
 
@@ -218,7 +218,7 @@ a{
 
   }
 
-    @media only screen and (max-device-width: 620px){
+    @media only screen and (max-width: 720px){
 
     p {font-size: 6vw;}
 
