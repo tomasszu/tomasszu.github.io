@@ -145,3 +145,42 @@ a{
 .Language{
     margin: 40px;
 }
+
+@media only screen and (max-width: 720px) {
+
+    h1{font-size: 72px;}
+
+    p .ievads{ font-size: 48px;}
+
+    .logoHeader{margin: 2px; width: 100%;}
+
+    #triangleDown { border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 70px solid red;
+    right: 5%;}
+
+    .saturs{ width: 95%;}
+
+    .teksti{height: 100%;}
+
+    .ievads{margin: 20px; width: 85%;}
+
+    .ievadaPic{margin: 20px; width: 85%;}
+
+    .Column{padding: 2%; width: 49%;}
+
+    #FirstRow #SecondC{display: none;}
+
+    #FirstRow #ThirdC{display: none;}
+
+    #FirstRow #FourthC{display: none;}
+
+    #SecondRow #ThirdC{display: none;}
+
+    #SecondRow #FourthC{display: none;}
+
+    .Profile{ width: 100%; height: auto;}
+
+
+
+  }
