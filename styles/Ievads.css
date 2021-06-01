@@ -147,35 +147,33 @@ a{
     margin: 40px;
 }
 
-  @media only screen and (max-device-width: 620px){
+  @media only screen and (max-device-width: 1440px) and (orientation: portrait){
 
-    #triangleDown { display: none;}
+    h1{font-size: 9vw;}
 
-    #logo{width: 100vw;}
+    p{font-size: 2vw;}
 
-    .saturs{ width: 100%;}
+    #Ievads{font-size: 4vw;}
+
+    .logoHeader{margin: 2px; width: 100%;}
+
+    #triangleDown { border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+    right: 5%;}
+
+    .saturs{ width: 95%;}
 
     .teksti{height: 100%;}
 
-    .ievads{margin: 20px; width: 100%;}
+    .ievads{margin: 20px; width: 85%;}
 
-    .ievadaPic{margin: 20px; width: 100%;}
-
-    .Column{padding: 2%; width: 100%;}
-
-    #FirstRow #SecondC{display: none;}
-
-    #FirstRow #ThirdC{display: none;}
-
-    #FirstRow #FourthC{display: none;}
-
-    #SecondRow #ThirdC{display: none;}
-
-    #SecondRow #FourthC{display: none;}
+    .ievadaPic{margin: 20px; width: 85%;}
 
     .Profile{ width: 100%; height: auto;}
 
   }
+
 
 @media only screen and (max-device-width: 1200px) and (orientation: portrait){
 
@@ -220,28 +218,31 @@ a{
 
   }
 
-  @media only screen and (max-device-width: 1440px) and (orientation: portrait){
+    @media only screen and (max-device-width: 580px){
 
-    h1{font-size: 9vw;}
+    #triangleDown { display: none;}
 
-    p{font-size: 2vw;}
+    #logo{width: 100vw;}
 
-    #Ievads{font-size: 4vw;}
-
-    .logoHeader{margin: 2px; width: 100%;}
-
-    #triangleDown { border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid red;
-    right: 5%;}
-
-    .saturs{ width: 95%;}
+    .saturs{ width: 100%;}
 
     .teksti{height: 100%;}
 
-    .ievads{margin: 20px; width: 85%;}
+    .ievads{margin: 20px; width: 100%;}
 
-    .ievadaPic{margin: 20px; width: 85%;}
+    .ievadaPic{margin: 20px; width: 100%;}
+
+    .Column{padding: 2%; width: 100%;}
+
+    #FirstRow #SecondC{display: none;}
+
+    #FirstRow #ThirdC{display: none;}
+
+    #FirstRow #FourthC{display: none;}
+
+    #SecondRow #ThirdC{display: none;}
+
+    #SecondRow #FourthC{display: none;}
 
     .Profile{ width: 100%; height: auto;}
 
