@@ -147,7 +147,39 @@ a{
     margin: 40px;
 }
 
-@media only screen and (max-width: 14cm) {
+  @media only screen and (max-device-width: 620px){
+
+    #triangleDown { display: none;}
+
+    #logo{width: 100vw;}
+
+    .saturs{ width: 100%;}
+
+    .teksti{height: 100%;}
+
+    .ievads{margin: 20px; width: 100%;}
+
+    .ievadaPic{margin: 20px; width: 100%;}
+
+    .Column{padding: 2%; width: 100%;}
+
+    #FirstRow #SecondC{display: none;}
+
+    #FirstRow #ThirdC{display: none;}
+
+    #FirstRow #FourthC{display: none;}
+
+    #SecondRow #ThirdC{display: none;}
+
+    #SecondRow #FourthC{display: none;}
+
+    .Profile{ width: 100%; height: auto;}
+
+  }
+
+@media only screen and (max-device-width: 1200px) and (orientation: portrait){
+
+    #logo{width: 100vw;}
 
     h1{font-size: 9vw;}
 
@@ -185,5 +217,32 @@ a{
     .Profile{ width: 100%; height: auto;}
 
 
+
+  }
+
+  @media only screen and (max-device-width: 1440px) and (orientation: portrait){
+
+    h1{font-size: 9vw;}
+
+    p{font-size: 2vw;}
+
+    #Ievads{font-size: 4vw;}
+
+    .logoHeader{margin: 2px; width: 100%;}
+
+    #triangleDown { border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+    right: 5%;}
+
+    .saturs{ width: 95%;}
+
+    .teksti{height: 100%;}
+
+    .ievads{margin: 20px; width: 85%;}
+
+    .ievadaPic{margin: 20px; width: 85%;}
+
+    .Profile{ width: 100%; height: auto;}
 
   }
